@@ -41,7 +41,7 @@ To understand available data and prepare it for deeper analysis.
 
 ### `clean PLACES data.ipynb`
 **What it does**:  
-Cleans public health data from the CDC’s PLACES dataset.
+Cleans public health data from the CDC’s PLACES dataset. Also identifies the top 5 tracts with the highest prevalence of asthma, copd, chd.
 
 **Why it was used**:  
 To make health indicators usable for mapping and linking to energy infrastructure and demographics.
