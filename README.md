@@ -50,10 +50,17 @@ To make health indicators usable for mapping and linking to energy infrastructur
 
 ### `cleaning Generation data.ipynb`
 **What it does**:  
-Cleans electricity generation data from the U.S. EIA (Energy Information Administration).
+Cleans electricity generation data from the U.S. EIA (Energy Information Administration) by removing duplicate entries and adding latitude/longitude information for each plant. Also aggregated some columns like Hydroelectric conventional and pumped to one hydroelectric column.
 
 **Why it was used**:  
-To connect generation types and amounts with ZIP codes and other regional factors.
+To connect generation data to plant locations, create maps showing the trend in energy generation.
+
+### `analyzing health and energy source.ipynb`
+** What it does**:
+Merges health and emissions data with the power plant data to associate power plants with the tracts they are located in and calculate the correlations between energy source and health outcomes.
+
+** Why it was used**:
+To create bar charts and box plots visualizing the connection between energy source and health outcome, emissions and health outcome.
 
 ---
 
